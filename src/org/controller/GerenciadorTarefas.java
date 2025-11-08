@@ -11,7 +11,7 @@ public class GerenciadorTarefas {
     private ArrayList<Tarefa> listaDeTarefas;
 
     public GerenciadorTarefas() {
-        listaDeTarefas = new ArrayList<>();
+        this.listaDeTarefas = new ArrayList<>();
     }
 
     public void adicionarTarefa(String titulo, String descricao, String prioridade) {
